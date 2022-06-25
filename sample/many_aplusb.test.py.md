@@ -1,6 +1,9 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: sample/io.py
+    title: sample/io.py
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -15,14 +18,15 @@ data:
     \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "# verification-helper: PROBLEM https://judge.yosupo.jp/problem/many_aplusb\n\
-    import sys\n\n\ndef read():\n    return sys.stdin.readline().rstrip()\n\n\ndef\
-    \ main():\n    t = int(read())\n    for _ in range(t):\n        a, b = map(int,\
-    \ read().split())\n        print(a + b)\n\n\nif __name__ == '__main__':\n    main()\n"
-  dependsOn: []
+    from sample.io import read\n\n\ndef main():\n    t = int(read())\n    for _ in\
+    \ range(t):\n        a, b = map(int, read().split())\n        print(a + b)\n\n\
+    \nif __name__ == '__main__':\n    main()\n"
+  dependsOn:
+  - sample/io.py
   isVerificationFile: true
   path: sample/many_aplusb.test.py
   requiredBy: []
-  timestamp: '2022-06-25 15:55:58+09:00'
+  timestamp: '2022-06-25 16:16:37+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: sample/many_aplusb.test.py

@@ -1,6 +1,11 @@
 ---
 data:
-  libraryCategories: []
+  libraryCategories:
+  - name: sample
+    pages:
+    - icon: ':heavy_check_mark:'
+      path: sample/io.py
+      title: sample/io.py
   verificationCategories:
   - name: sample
     pages:
