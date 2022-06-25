@@ -1,9 +1,5 @@
 # verification-helper: PROBLEM https://judge.yosupo.jp/problem/many_aplusb
-import sys
-
-
-def read():
-    return sys.stdin.readline().rstrip()
+from sample.io import read
 
 
 def main():
