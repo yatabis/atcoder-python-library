@@ -1,6 +1,6 @@
 {
-"data_structure/associative_array.test.py": "2022-06-25 16:50:17 +0900",
-"data_structure/union_find.test.py": "2022-06-25 16:56:18 +0900",
-"sample/aplusb.test.py": "2022-06-25 15:55:58 +0900",
-"sample/many_aplusb.test.py": "2022-06-25 16:16:37 +0900"
+"verify/data_structure/associative_array.test.py": "2022-06-26 23:15:33 +0900",
+"verify/data_structure/union_find.test.py": "2022-06-26 23:15:33 +0900",
+"verify/sample/aplusb.test.py": "2022-06-26 23:15:33 +0900",
+"verify/sample/many_aplusb.test.py": "2022-06-26 23:15:33 +0900"
 }
