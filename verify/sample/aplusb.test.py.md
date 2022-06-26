@@ -24,15 +24,15 @@ data:
     '
   dependsOn: []
   isVerificationFile: true
-  path: sample/aplusb.test.py
+  path: verify/sample/aplusb.test.py
   requiredBy: []
-  timestamp: '2022-06-25 15:55:58+09:00'
+  timestamp: '2022-06-26 23:15:33+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
-documentation_of: sample/aplusb.test.py
+documentation_of: verify/sample/aplusb.test.py
 layout: document
 redirect_from:
-- /verify/sample/aplusb.test.py
-- /verify/sample/aplusb.test.py.html
-title: sample/aplusb.test.py
+- /verify/verify/sample/aplusb.test.py
+- /verify/verify/sample/aplusb.test.py.html
+title: verify/sample/aplusb.test.py
 ---

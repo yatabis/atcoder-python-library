@@ -4,14 +4,14 @@ data:
   _extendedRequiredBy: []
   _extendedVerifiedWith:
   - icon: ':heavy_check_mark:'
-    path: data_structure/associative_array.test.py
-    title: data_structure/associative_array.test.py
+    path: verify/data_structure/associative_array.test.py
+    title: verify/data_structure/associative_array.test.py
   - icon: ':heavy_check_mark:'
-    path: data_structure/union_find.test.py
-    title: data_structure/union_find.test.py
+    path: verify/data_structure/union_find.test.py
+    title: verify/data_structure/union_find.test.py
   - icon: ':heavy_check_mark:'
-    path: sample/many_aplusb.test.py
-    title: sample/many_aplusb.test.py
+    path: verify/sample/many_aplusb.test.py
+    title: verify/sample/many_aplusb.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -24,18 +24,18 @@ data:
   code: "import sys\n\n\ndef read():\n    return sys.stdin.readline().rstrip()\n"
   dependsOn: []
   isVerificationFile: false
-  path: sample/io.py
+  path: lib/sample/io.py
   requiredBy: []
-  timestamp: '2022-06-25 16:16:37+09:00'
+  timestamp: '2022-06-26 23:15:33+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - sample/many_aplusb.test.py
-  - data_structure/union_find.test.py
-  - data_structure/associative_array.test.py
-documentation_of: sample/io.py
+  - verify/sample/many_aplusb.test.py
+  - verify/data_structure/union_find.test.py
+  - verify/data_structure/associative_array.test.py
+documentation_of: lib/sample/io.py
 layout: document
 redirect_from:
-- /library/sample/io.py
-- /library/sample/io.py.html
-title: sample/io.py
+- /library/lib/sample/io.py
+- /library/lib/sample/io.py.html
+title: lib/sample/io.py
 ---

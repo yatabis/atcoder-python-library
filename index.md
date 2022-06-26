@@ -1,32 +1,37 @@
 ---
 data:
   libraryCategories:
-  - name: data_structure
+  - name: lib/data_structure
     pages:
     - icon: ':heavy_check_mark:'
-      path: data_structure/union_find.py
-      title: data_structure/union_find.py
-  - name: sample
+      path: lib/data_structure/union_find.py
+      title: UnionFind
+  - name: lib/sample
     pages:
     - icon: ':heavy_check_mark:'
-      path: sample/io.py
-      title: sample/io.py
+      path: lib/sample/io.py
+      title: lib/sample/io.py
   verificationCategories:
-  - name: data_structure
+  - name: verify/data_structure
     pages:
     - icon: ':heavy_check_mark:'
-      path: data_structure/associative_array.test.py
-      title: data_structure/associative_array.test.py
+      path: verify/data_structure/associative_array.test.py
+      title: verify/data_structure/associative_array.test.py
     - icon: ':heavy_check_mark:'
-      path: data_structure/union_find.test.py
-      title: data_structure/union_find.test.py
-  - name: sample
+      path: verify/data_structure/union_find.test.py
+      title: verify/data_structure/union_find.test.py
+  - name: verify/sample
     pages:
     - icon: ':heavy_check_mark:'
-      path: sample/aplusb.test.py
-      title: sample/aplusb.test.py
+      path: verify/sample/aplusb.test.py
+      title: verify/sample/aplusb.test.py
     - icon: ':heavy_check_mark:'
-      path: sample/many_aplusb.test.py
-      title: sample/many_aplusb.test.py
+      path: verify/sample/many_aplusb.test.py
+      title: verify/sample/many_aplusb.test.py
 layout: toppage
 ---
+[![yatabis](https://img.shields.io/endpoint?url=https%3A%2F%2Fatcoder-badges.now.sh%2Fapi%2Fatcoder%2Fjson%2Fyatabis)](https://atcoder.jp/users/yatabis)
+
+自分用の競プロライブラリです。
+
+順次整備を進めていきます。
