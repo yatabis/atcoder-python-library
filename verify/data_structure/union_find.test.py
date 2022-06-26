@@ -1,6 +1,6 @@
 # verification-helper: PROBLEM https://judge.yosupo.jp/problem/unionfind
-from sample.io import read
-from data_structure.union_find import UnionFind
+from lib.sample.io import read
+from lib.data_structure.union_find import UnionFind
 
 
 def main():

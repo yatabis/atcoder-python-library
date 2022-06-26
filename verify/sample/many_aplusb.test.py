@@ -1,5 +1,5 @@
 # verification-helper: PROBLEM https://judge.yosupo.jp/problem/many_aplusb
-from sample.io import read
+from lib.sample.io import read
 
 
 def main():

@@ -1,5 +1,5 @@
 # verification-helper: PROBLEM https://judge.yosupo.jp/problem/associative_array
-from sample.io import read
+from lib.sample.io import read
 
 
 def main():
