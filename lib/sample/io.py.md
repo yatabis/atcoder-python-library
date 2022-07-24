@@ -29,9 +29,9 @@ data:
   timestamp: '2022-06-26 23:15:33+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
-  - verify/sample/many_aplusb.test.py
   - verify/data_structure/union_find.test.py
   - verify/data_structure/associative_array.test.py
+  - verify/sample/many_aplusb.test.py
 documentation_of: lib/sample/io.py
 layout: document
 redirect_from:

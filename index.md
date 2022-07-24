@@ -3,6 +3,9 @@ data:
   libraryCategories:
   - name: lib/data_structure
     pages:
+    - icon: ':warning:'
+      path: lib/data_structure/treap.py
+      title: lib/data_structure/treap.py
     - icon: ':heavy_check_mark:'
       path: lib/data_structure/union_find.py
       title: UnionFind
@@ -17,6 +20,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/data_structure/associative_array.test.py
       title: verify/data_structure/associative_array.test.py
+    - icon: ':x:'
+      path: verify/data_structure/predecessor_problem.test.py
+      title: verify/data_structure/predecessor_problem.test.py
     - icon: ':heavy_check_mark:'
       path: verify/data_structure/union_find.test.py
       title: verify/data_structure/union_find.test.py
