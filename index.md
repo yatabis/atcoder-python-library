@@ -20,9 +20,6 @@ data:
     - icon: ':heavy_check_mark:'
       path: verify/data_structure/associative_array.test.py
       title: verify/data_structure/associative_array.test.py
-    - icon: ':x:'
-      path: verify/data_structure/predecessor_problem.test.py
-      title: verify/data_structure/predecessor_problem.test.py
     - icon: ':heavy_check_mark:'
       path: verify/data_structure/union_find.test.py
       title: verify/data_structure/union_find.test.py
