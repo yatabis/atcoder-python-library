@@ -27,8 +27,8 @@ data:
     \ t == 0:\n            uf.union(u, v)\n        else:\n            print(int(uf.same(u,\
     \ v)))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - lib/data_structure/union_find.py
   - lib/sample/io.py
+  - lib/data_structure/union_find.py
   isVerificationFile: true
   path: verify/data_structure/union_find.test.py
   requiredBy: []
