@@ -5,7 +5,7 @@ data:
     pages:
     - icon: ':warning:'
       path: lib/data_structure/fenwick_tree.py
-      title: lib/data_structure/fenwick_tree.py
+      title: FenwickTree
     - icon: ':warning:'
       path: lib/data_structure/treap.py
       title: lib/data_structure/treap.py
