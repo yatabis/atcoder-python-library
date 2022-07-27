@@ -28,7 +28,7 @@ def __init__(self, n: int)
 ---
 
 ```python
-def build(self, a: Sequence)
+def build(self, a: Sequence[T])
 ```
 
 > `a` で初期化する<br>
