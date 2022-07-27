@@ -7,8 +7,14 @@ data:
     path: verify/data_structure/associative_array.test.py
     title: verify/data_structure/associative_array.test.py
   - icon: ':heavy_check_mark:'
+    path: verify/data_structure/point_add_range_sum.test.py
+    title: verify/data_structure/point_add_range_sum.test.py
+  - icon: ':heavy_check_mark:'
     path: verify/data_structure/static_range_sum.test.py
     title: verify/data_structure/static_range_sum.test.py
+  - icon: ':heavy_check_mark:'
+    path: verify/data_structure/static_range_sum_fenwick_tree.test.py
+    title: verify/data_structure/static_range_sum_fenwick_tree.test.py
   - icon: ':heavy_check_mark:'
     path: verify/data_structure/union_find.test.py
     title: verify/data_structure/union_find.test.py
@@ -32,8 +38,10 @@ data:
   timestamp: '2022-06-26 23:15:33+09:00'
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
+  - verify/data_structure/point_add_range_sum.test.py
   - verify/data_structure/union_find.test.py
   - verify/data_structure/associative_array.test.py
+  - verify/data_structure/static_range_sum_fenwick_tree.test.py
   - verify/data_structure/static_range_sum.test.py
   - verify/sample/many_aplusb.test.py
 documentation_of: lib/sample/io.py

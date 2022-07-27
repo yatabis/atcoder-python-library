@@ -1,6 +1,12 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: lib/data_structure/fenwick_tree.py
+    title: FenwickTree
+  - icon: ':heavy_check_mark:'
+    path: lib/sample/io.py
+    title: lib/sample/io.py
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -20,11 +26,13 @@ data:
     \ read().split()]\n    ft = FenwickTree(n)\n    ft.build(a)\n    for _ in range(q):\n\
     \        l, r = map(int, read().split())\n        print(ft.sum(l, r - 1))\n\n\n\
     if __name__ == '__main__':\n    main()"
-  dependsOn: []
+  dependsOn:
+  - lib/sample/io.py
+  - lib/data_structure/fenwick_tree.py
   isVerificationFile: true
   path: verify/data_structure/static_range_sum_fenwick_tree.test.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2022-07-28 01:03:27+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: verify/data_structure/static_range_sum_fenwick_tree.test.py

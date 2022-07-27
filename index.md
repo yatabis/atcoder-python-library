@@ -3,7 +3,7 @@ data:
   libraryCategories:
   - name: lib/data_structure
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: lib/data_structure/fenwick_tree.py
       title: FenwickTree
     - icon: ':warning:'

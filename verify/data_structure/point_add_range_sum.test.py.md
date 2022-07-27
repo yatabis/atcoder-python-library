@@ -1,6 +1,12 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: lib/data_structure/fenwick_tree.py
+    title: FenwickTree
+  - icon: ':heavy_check_mark:'
+    path: lib/sample/io.py
+    title: lib/sample/io.py
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _isVerificationFailed: false
@@ -21,11 +27,13 @@ data:
     \        query = [int(i) for i in read().split()]\n        if query[0] == 0:\n\
     \            ft.add(query[1], query[2])\n        else:\n            print(ft.sum(query[1],\
     \ query[2] - 1))\n\n\nif __name__ == '__main__':\n    main()\n"
-  dependsOn: []
+  dependsOn:
+  - lib/data_structure/fenwick_tree.py
+  - lib/sample/io.py
   isVerificationFile: true
   path: verify/data_structure/point_add_range_sum.test.py
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
+  timestamp: '2022-07-28 01:03:27+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: verify/data_structure/point_add_range_sum.test.py
