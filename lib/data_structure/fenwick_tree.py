@@ -1,4 +1,4 @@
-from typing import List
+from collections.abc import Sequence
 
 T = int
 
@@ -8,7 +8,7 @@ class FenwickTree:
         self._n = n
         self._a = [0] * (n + 1)
 
-    def build(self, a: List[T]):
+    def build(self, a: Sequence):
         for i, ai in enumerate(a):
             self.add(i, ai)
 
