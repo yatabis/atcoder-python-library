@@ -27,12 +27,12 @@ data:
     \ for _ in range(q):\n        l, r = map(int, read().split())\n        print(st.query(l,\
     \ r))\n\n\nif __name__ == '__main__':\n    main()\n"
   dependsOn:
-  - lib/sample/io.py
   - lib/data_structure/segment_tree.py
+  - lib/sample/io.py
   isVerificationFile: true
   path: verify/data_structure/staticrmq.test.py
   requiredBy: []
-  timestamp: '2022-07-30 18:22:32+09:00'
+  timestamp: '2022-07-30 19:51:48+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: verify/data_structure/staticrmq.test.py

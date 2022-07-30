@@ -13,6 +13,9 @@ data:
     path: verify/data_structure/point_add_range_sum__segment_tree.test.py
     title: verify/data_structure/point_add_range_sum__segment_tree.test.py
   - icon: ':heavy_check_mark:'
+    path: verify/data_structure/point_set_range_composite.test.py
+    title: verify/data_structure/point_set_range_composite.test.py
+  - icon: ':heavy_check_mark:'
     path: verify/data_structure/static_range_sum.test.py
     title: verify/data_structure/static_range_sum.test.py
   - icon: ':heavy_check_mark:'
@@ -48,6 +51,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - verify/data_structure/point_add_range_sum.test.py
+  - verify/data_structure/point_set_range_composite.test.py
   - verify/data_structure/static_range_sum__fenwick_tree.test.py
   - verify/data_structure/union_find.test.py
   - verify/data_structure/associative_array.test.py

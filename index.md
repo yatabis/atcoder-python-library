@@ -33,6 +33,9 @@ data:
       path: verify/data_structure/point_add_range_sum__segment_tree.test.py
       title: verify/data_structure/point_add_range_sum__segment_tree.test.py
     - icon: ':heavy_check_mark:'
+      path: verify/data_structure/point_set_range_composite.test.py
+      title: verify/data_structure/point_set_range_composite.test.py
+    - icon: ':heavy_check_mark:'
       path: verify/data_structure/static_range_sum.test.py
       title: verify/data_structure/static_range_sum.test.py
     - icon: ':heavy_check_mark:'
