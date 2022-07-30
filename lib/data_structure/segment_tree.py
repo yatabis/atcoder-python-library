@@ -1,4 +1,4 @@
-T = int
+T = "Monoid"
 
 
 class SegmentTree:
