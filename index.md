@@ -6,6 +6,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: lib/data_structure/fenwick_tree.py
       title: FenwickTree
+    - icon: ':heavy_check_mark:'
+      path: lib/data_structure/segment_tree.py
+      title: lib/data_structure/segment_tree.py
     - icon: ':warning:'
       path: lib/data_structure/treap.py
       title: lib/data_structure/treap.py
@@ -27,11 +30,20 @@ data:
       path: verify/data_structure/point_add_range_sum.test.py
       title: verify/data_structure/point_add_range_sum.test.py
     - icon: ':heavy_check_mark:'
+      path: verify/data_structure/point_add_range_sum__segment_tree.test.py
+      title: verify/data_structure/point_add_range_sum__segment_tree.test.py
+    - icon: ':heavy_check_mark:'
       path: verify/data_structure/static_range_sum.test.py
       title: verify/data_structure/static_range_sum.test.py
     - icon: ':heavy_check_mark:'
-      path: verify/data_structure/static_range_sum_fenwick_tree.test.py
-      title: verify/data_structure/static_range_sum_fenwick_tree.test.py
+      path: verify/data_structure/static_range_sum__fenwick_tree.test.py
+      title: verify/data_structure/static_range_sum__fenwick_tree.test.py
+    - icon: ':heavy_check_mark:'
+      path: verify/data_structure/static_range_sum__segment_tree.test.py
+      title: verify/data_structure/static_range_sum__segment_tree.test.py
+    - icon: ':heavy_check_mark:'
+      path: verify/data_structure/staticrmq.test.py
+      title: verify/data_structure/staticrmq.test.py
     - icon: ':heavy_check_mark:'
       path: verify/data_structure/union_find.test.py
       title: verify/data_structure/union_find.test.py

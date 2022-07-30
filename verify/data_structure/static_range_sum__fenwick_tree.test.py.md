@@ -27,18 +27,18 @@ data:
     \        l, r = map(int, read().split())\n        print(ft.sum(l, r - 1))\n\n\n\
     if __name__ == '__main__':\n    main()"
   dependsOn:
-  - lib/sample/io.py
   - lib/data_structure/fenwick_tree.py
+  - lib/sample/io.py
   isVerificationFile: true
-  path: verify/data_structure/static_range_sum_fenwick_tree.test.py
+  path: verify/data_structure/static_range_sum__fenwick_tree.test.py
   requiredBy: []
-  timestamp: '2022-07-28 01:03:27+09:00'
+  timestamp: '2022-07-30 18:22:32+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
-documentation_of: verify/data_structure/static_range_sum_fenwick_tree.test.py
+documentation_of: verify/data_structure/static_range_sum__fenwick_tree.test.py
 layout: document
 redirect_from:
-- /verify/verify/data_structure/static_range_sum_fenwick_tree.test.py
-- /verify/verify/data_structure/static_range_sum_fenwick_tree.test.py.html
-title: verify/data_structure/static_range_sum_fenwick_tree.test.py
+- /verify/verify/data_structure/static_range_sum__fenwick_tree.test.py
+- /verify/verify/data_structure/static_range_sum__fenwick_tree.test.py.html
+title: verify/data_structure/static_range_sum__fenwick_tree.test.py
 ---

@@ -7,8 +7,8 @@ data:
     path: verify/data_structure/point_add_range_sum.test.py
     title: verify/data_structure/point_add_range_sum.test.py
   - icon: ':heavy_check_mark:'
-    path: verify/data_structure/static_range_sum_fenwick_tree.test.py
-    title: verify/data_structure/static_range_sum_fenwick_tree.test.py
+    path: verify/data_structure/static_range_sum__fenwick_tree.test.py
+    title: verify/data_structure/static_range_sum__fenwick_tree.test.py
   _isVerificationFailed: false
   _pathExtension: py
   _verificationStatusIcon: ':heavy_check_mark:'
@@ -36,7 +36,7 @@ data:
   verificationStatus: LIBRARY_ALL_AC
   verifiedWith:
   - verify/data_structure/point_add_range_sum.test.py
-  - verify/data_structure/static_range_sum_fenwick_tree.test.py
+  - verify/data_structure/static_range_sum__fenwick_tree.test.py
 documentation_of: lib/data_structure/fenwick_tree.py
 layout: document
 title: FenwickTree
