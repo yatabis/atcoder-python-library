@@ -1,12 +1,12 @@
 {
 "verify/data_structure/associative_array.test.py": "2022-06-26 23:15:33 +0900",
 "verify/data_structure/point_add_range_sum.test.py": "2022-07-28 01:03:27 +0900",
-"verify/data_structure/point_add_range_sum__segment_tree.test.py": "2022-07-30 19:51:48 +0900",
-"verify/data_structure/point_set_range_composite.test.py": "2022-07-30 19:51:48 +0900",
+"verify/data_structure/point_add_range_sum__segment_tree.test.py": "2022-08-20 14:37:04 +0900",
+"verify/data_structure/point_set_range_composite.test.py": "2022-08-20 14:37:04 +0900",
 "verify/data_structure/static_range_sum.test.py": "2022-07-27 01:28:35 +0900",
 "verify/data_structure/static_range_sum__fenwick_tree.test.py": "2022-07-30 18:22:32 +0900",
-"verify/data_structure/static_range_sum__segment_tree.test.py": "2022-07-30 19:51:48 +0900",
-"verify/data_structure/staticrmq.test.py": "2022-07-30 19:51:48 +0900",
+"verify/data_structure/static_range_sum__segment_tree.test.py": "2022-08-20 14:37:04 +0900",
+"verify/data_structure/staticrmq.test.py": "2022-08-20 14:37:04 +0900",
 "verify/data_structure/union_find.test.py": "2022-06-26 23:15:33 +0900",
 "verify/sample/aplusb.test.py": "2022-06-26 23:15:33 +0900",
 "verify/sample/many_aplusb.test.py": "2022-06-26 23:15:33 +0900"
