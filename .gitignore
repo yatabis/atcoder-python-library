@@ -1,2 +1,4 @@
 .idea/
 __pycache__/
+gen_docs.py
+gen_verify.py
