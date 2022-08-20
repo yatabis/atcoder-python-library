@@ -11,9 +11,9 @@ data:
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     links: []
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
+  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/onlinejudge_verify/documentation/build.py\"\
     , line 71, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.5/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
+    \ basedir=basedir, options={'include_paths': [basedir]}).decode()\n  File \"/opt/hostedtoolcache/Python/3.10.6/x64/lib/python3.10/site-packages/onlinejudge_verify/languages/python.py\"\
     , line 96, in bundle\n    raise NotImplementedError\nNotImplementedError\n"
   code: "class UnionFind:\n    def __init__(self, n: int):\n        self._n = n\n\
     \        self._parents = [-1] * n\n\n    def find(self, x: int) -> int:\n    \
@@ -54,7 +54,7 @@ def __init__(self, n: int)
 ```
 
 > サイズ $n$ の UnionFind を生成する<br>
-> $O(1)$
+> $O(N)$
 
 ---
 
@@ -64,7 +64,7 @@ def union(self, x: int, y: int) -> bool
 
 > x と y をマージする<br>
 > マージに成功した場合 `True` 、失敗した場合 `False` を返す<br>
-> $O(\alpha(N))$
+> amortized $O(\alpha(N))$
 
 ---
 
@@ -73,7 +73,7 @@ def find(self, x: int) -> int
 ```
 
 > x を含む連結成分の根を返す<br>
-> $O(\alpha(N))$
+> amortized $O(\alpha(N))$
 
 ---
 
@@ -82,6 +82,6 @@ def same(self, x: int, y: int) -> bool
 ```
 
 > x と y が同じ連結成分に含まれているかを返す<br>
-> $O(\alpha(N))$
+> amortized $O(\alpha(N))$
 
 ---

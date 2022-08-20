@@ -8,7 +8,7 @@ data:
       title: FenwickTree
     - icon: ':heavy_check_mark:'
       path: lib/data_structure/segment_tree.py
-      title: lib/data_structure/segment_tree.py
+      title: SegmentTree
     - icon: ':warning:'
       path: lib/data_structure/treap.py
       title: lib/data_structure/treap.py
