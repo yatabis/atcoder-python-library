@@ -14,13 +14,6 @@ class SegmentTree:
         for i in range(self._n - 1, 0, -1):
             self._a[i] = self._op(self._a[2 * i], self._a[2 * i + 1])
 
-    def add(self, i: int, x: T):
-        i += self._n
-        self._a[i] += x
-        while i > 1:
-            i //= 2
-            self._a[i] = self._op(self._a[2 * i], self._a[2 * i + 1])
-
     def set(self, i: int, x: T):
         i += self._n
         self._a[i] = x

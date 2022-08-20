@@ -11,7 +11,7 @@ def main():
     for _ in range(q):
         query = [int(i) for i in read().split()]
         if query[0] == 0:
-            st.add(query[1], query[2])
+            st.set(query[1], st.at(query[1]) + query[2])
         else:
             print(st.query(query[1], query[2]))
 
