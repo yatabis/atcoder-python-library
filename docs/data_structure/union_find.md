@@ -19,7 +19,7 @@ def __init__(self, n: int)
 ```
 
 > サイズ $n$ の UnionFind を生成する<br>
-> $O(1)$
+> $O(N)$
 
 ---
 
@@ -29,7 +29,7 @@ def union(self, x: int, y: int) -> bool
 
 > x と y をマージする<br>
 > マージに成功した場合 `True` 、失敗した場合 `False` を返す<br>
-> $O(\alpha(N))$
+> amortized $O(\alpha(N))$
 
 ---
 
@@ -38,7 +38,7 @@ def find(self, x: int) -> int
 ```
 
 > x を含む連結成分の根を返す<br>
-> $O(\alpha(N))$
+> amortized $O(\alpha(N))$
 
 ---
 
@@ -47,6 +47,6 @@ def same(self, x: int, y: int) -> bool
 ```
 
 > x と y が同じ連結成分に含まれているかを返す<br>
-> $O(\alpha(N))$
+> amortized $O(\alpha(N))$
 
 ---
